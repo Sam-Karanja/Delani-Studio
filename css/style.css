@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.card{
+    text-align: center;
+    padding: 2rem;
+}
+
+.services{
+    background-image: url("assets/s_image");
+}
+
+.whatwedo{
+    flex-direction: row;
+    justify-content: space-around;
+}.portfolio img{
+    height: 250px;
+    padding: 10px;
+    
+}
+
