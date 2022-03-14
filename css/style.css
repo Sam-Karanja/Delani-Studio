@@ -38,13 +38,27 @@
 }
 
 .portfolio{
-    background-color: aqua;
+    align-content: center;
+}
+
+.portfolio h4{
     text-align: center;
+    padding: 30px;
 }
 
 .row1, .row2{
     display: flex;
     align-items: center;
+}
+
+.one{
+    display: none;
+    text-align: center;
+}
+
+.project1-1{
+    display: none;
+    background-image: url("../assets/work4.jpg");
 }
 
 .contact{
@@ -53,10 +67,6 @@
     height: 40vh;
     color: white;
     padding: ;
-}
-
-.desc{
-    display: none;
 }
 
 .description1, .description2, .description3{
@@ -91,5 +101,11 @@
 .footer, .copyright{
 text-align: center;
 padding-top: 20px;
+}
+
+#submit{
+    margin: 20px;
+    padding: 5px;
+    border-radius:10px;
 }
 
