@@ -34,30 +34,38 @@
     // })
 
 
-    $(".project1").hover(function(){
-        $(".one-1").toggle()
+    $(".project1").hover(function(){       
+        $(".project1-1").toggle()
+        $(".project1").toggle()
     })
     $(".project2").hover(function(){
-        $(".one-2").toggle()
-    })
+        $(".project1-2").toggle()
+        $(".project2").toggle()
+        })
     $(".project3").hover(function(){
-        $(".one-3").toggle()
-    })
+        $(".project1-3").toggle()
+        $(".project3").toggle()  
+      })
     $(".project4").hover(function(){
-        $(".one-4").toggle()
-    })
+        $(".project1-4").toggle()
+        $(".project4").toggle()  
+      })
     $(".project5").hover(function(){
-        $(".one-5").toggle()
-    })
+        $(".project1-5").toggle()
+        $(".project5").toggle()  
+      })
     $(".project6").hover(function(){
-        $(".one-6").toggle()
-    })
+        $(".project1-6").toggle()
+        $(".project6").toggle()  
+      })
     $(".project7").hover(function(){
-        $(".one-7").toggle()
-    })
+        $(".project1-7").toggle()
+        $(".project7").toggle()  
+      })
     $(".project8").hover(function(){
-        $(".one-8").toggle()
-    })
+        $(".project1-8").toggle()
+        $(".project8").toggle()  
+      })
 
     
 
