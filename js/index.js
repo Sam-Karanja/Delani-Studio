@@ -28,6 +28,37 @@
         $(".clickable3").toggle();
     })
 
+    // $(".project1").click(function(){
+    //     $(".project1").removeClass()
+    //     // $(".project1-1").addClass(".project1-1")
+    // })
+
+
+    $(".project1").hover(function(){
+        $(".one-1").toggle()
+    })
+    $(".project2").hover(function(){
+        $(".one-2").toggle()
+    })
+    $(".project3").hover(function(){
+        $(".one-3").toggle()
+    })
+    $(".project4").hover(function(){
+        $(".one-4").toggle()
+    })
+    $(".project5").hover(function(){
+        $(".one-5").toggle()
+    })
+    $(".project6").hover(function(){
+        $(".one-6").toggle()
+    })
+    $(".project7").hover(function(){
+        $(".one-7").toggle()
+    })
+    $(".project8").hover(function(){
+        $(".one-8").toggle()
+    })
+
     
 
 
