@@ -47,6 +47,7 @@
     background-image: url("../assets/c_image.jpg");
     height: 40vh;
     color: white;
+    padding: ;
 }
 
 .desc{
@@ -64,6 +65,23 @@
     padding: 100px;
     font-weight: 500;
 }
+
+.input{
+    padding: 15px;
+}
+
+#message, #email, #name{
+    padding-top: 10px;
+    background-color:rgba(255,255,255,0);
+    color: white;
+   
+}
+
+#message{
+    height: 200px;
+}
+
+
 
 .footer, .copyright{
 text-align: center;
