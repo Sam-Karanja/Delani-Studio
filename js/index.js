@@ -28,12 +28,6 @@
         $(".clickable3").toggle();
     })
 
-    // $(".project1").click(function(){
-    //     $(".project1").removeClass()
-    //     // $(".project1-1").addClass(".project1-1")
-    // })
-
-
     $(".project1").hover(function(){       
         $(".project1-1").toggle()
         $(".project1").toggle()
@@ -67,14 +61,13 @@
         $(".project8").toggle()  
       })
 
+    $("#submit").click(function(){
+        alert('Thank You for contacting us. We wil get back to you as soon as possible')
+        
+
+    })
     
 
 
 
     
-// showing a hidden image
-// $(document).ready(function(){
-//     $("p").click(function(){
-//         $("img").show();
-//     })
-// })
