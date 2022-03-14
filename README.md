@@ -1,4 +1,4 @@
-#### Delani Studio
+### Delani Studio
 
 #### Version v1.1.0
 
