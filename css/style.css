@@ -37,10 +37,16 @@
    
 }
 
+.row1, .row2{
+    display: flex;
+    align-items: center;
+}
+
 .contact{
     justify-content: space-around;
     background-image: url("../assets/c_image.jpg");
     height: 40vh;
+    color: white;
 }
 
 .desc{
