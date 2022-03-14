@@ -3,7 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+.landingpage{
+    background-image: url("../assets/h_img.jpg");
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
 
+.landing-desc{
+    padding: 300px;
+}
 
 
 .card{
@@ -18,9 +28,39 @@
 .whatwedo{
     flex-direction: row;
     justify-content: space-around;
-}.portfolio img{
+    padding: 100px;
+}
+
+.portfolio img{
     height: 250px;
     padding: 10px;
-    
+   
+}
+
+.contact{
+    justify-content: space-around;
+    background-image: url("../assets/c_image.jpg");
+    height: 40vh;
+}
+
+.desc{
+    display: none;
+}
+
+.description2{
+    display: none;
+}
+
+.services{
+    background-image: url("../assets/s_image.jpg");
+    color: white;
+    height: 40vh;
+    padding: 100px;
+    font-weight: 500;
+}
+
+.footer, .copyright{
+text-align: center;
+padding-top: 20px;
 }
 
