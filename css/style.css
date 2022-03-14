@@ -37,6 +37,11 @@
    
 }
 
+.portfolio{
+    background-color: aqua;
+    text-align: center;
+}
+
 .row1, .row2{
     display: flex;
     align-items: center;
@@ -54,7 +59,7 @@
     display: none;
 }
 
-.description2{
+.description1, .description2, .description3{
     display: none;
 }
 
