@@ -9,7 +9,7 @@
     <title>Delani-studio</title>
   </head>
   <body>
-    <div class="landingpage  ">
+    <div class="landingpage card ">
      <div class="landing-desc">
       <img src="./assets/logo.png" alt="logo" />
       <h1>
@@ -122,11 +122,11 @@
         </div>
       </div>
 
-      <div class="portfolio container ">
+      <div class="portfolio card container  ">
         <h4>PORTFOLIO</h4>
-        <div class="row1">
-          <div class="project1 ">
-            <img src="./assets/work4.jpg" alt="work4" id="project-one" />
+        <div class="row">
+          <div class="project1 col col-md-3 mb-3">
+            <img src="./assets/work4.jpg" alt="work4" class="img-fluid" id="project-one" />
             <div class=" desc project1-desc">
               <p class="one-1 one">Project One.</p>
             </div>
@@ -136,8 +136,8 @@
             <p >Project One.</p>
           </div>
 
-          <div class="project2 ">
-            <img src="./assets/work3.jpg" alt="work3" id="project-two" />
+          <div class="project2  col col-md-3 mb-3">
+            <img src="./assets/work3.jpg" alt="work3"  class="img-fluid" id="project-two" />
 
             <div class="desc project2-desc">
               <p class="one-2 one" >Mighty Ontario.</p>
@@ -148,8 +148,8 @@
             <p >Mighty Ontario.</p>
           </div>
 
-          <div class="project3 ">
-            <img src="./assets/work2.jpg" alt="work2" id="project-three" />
+          <div class="project3  col col-md-3 mb-3">
+            <img src="./assets/work2.jpg" alt="work2"  class="img-fluid" id="project-three" />
             <div class=" desc project3-desc">
               <p class="one-3 one" >Diamonds.</p>
             </div>
@@ -159,8 +159,8 @@
             <p >Diamnonds.</p>
           </div>
 
-          <div class="project4 ">
-            <img src="./assets/work1.jpg" alt="work1" id="project-four" />
+          <div class="project4  col col-md-3 mb-3 ">
+            <img src="./assets/work1.jpg" alt="work1"  class="img-fluid" id="project-four" />
             <div class="desc project4-desc">
               <p class="one-4 one">Jim Carrey.</p>
             </div>
@@ -171,9 +171,9 @@
           </div>
         </div>
 
-        <div class="row2">
-          <div class="project5 ">
-            <img src="./assets/work5.jpg" alt="work5" id="project-five" />
+        <div class="row">
+          <div class="project5  col col-md-3 mb-3">
+            <img src="./assets/work5.jpg" alt="work5"  class="img-fluid" id="project-five" />
             <div class="desc project5-desc">
               <p class="one-5 one">Elena website.</p>
             </div>
@@ -183,8 +183,8 @@
             <p >Elena Website.</p>
           </div>
 
-          <div class="project6 ">
-            <img src="./assets/work6.jpg" alt="work6" id="project-six" />
+          <div class="project6  col col-md-3 mb-3">
+            <img src="./assets/work6.jpg" alt="work6"  class="img-fluid" id="project-six" />
             <div class="desc project6-desc">
               <p class="one-6 one">
               Data analysis.
@@ -196,8 +196,8 @@
             <p >Data Analysis.</p>
           </div>
 
-          <div class="project7 ">
-            <img src="./assets/work7.jpg" alt="work7" id="project-seven" />
+          <div class="project7  col col-md-3 mb-3">
+            <img src="./assets/work7.jpg" alt="work7" class="img-fluid" id="project-seven" />
             <div class="desc project7-desc">
               <p class="one-7 one">
                  Burned Logo Mockup.
@@ -209,8 +209,8 @@
             <p >Burned Logo Mockup.</p>
           </div>
 
-          <div class="project8 ">
-            <img src="./assets/work8.jpg" alt="work8" id="project-eight" />
+          <div class="project8  col col-md-3 mb-3">
+            <img src="./assets/work8.jpg" alt="work8"  class="img-fluid" id="project-eight" />
             <div class="desc project8-desc">
               <p class="one-8 one">Giraffe Restaurant.</p>
             </div>
@@ -226,12 +226,16 @@
 
     <div class="contact card">
       <h3>CONTACT US</h3>
-      <div class="input">
-        <input type="text" placeholder="Name" id="name" size="30" required/>
-        <input type="email" placeholder="Email" id="email" size="30" required/><br />
-        <input type="text" placeholder="Your message here" id="message"  size="60"required /> <br>
+      <form class="input form">
+        <label for="name"></label>
+        <input type="text" placeholder="Name" id="name" size="" required/>
+        <label for="email"></label>
+        <input type="email" placeholder="Email" id="email" size="" required/><br />
+        <label for="message"></label>
+        <textarea type="text" placeholder="Your message here" id="message" rows="" cols="30" required ></textarea> <br>
         <input type="submit" name="submit" id="submit" value="submit">
-      </div>
+      </form>
+    
     </div>
 
     <div class="footer">

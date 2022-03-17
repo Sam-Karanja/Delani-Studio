@@ -60,12 +60,15 @@
         $(".project1-8").toggle()
         $(".project8").toggle()  
       })
-
+    
     $("#submit").click(function(){
-        alert('Thank You for contacting us. We wil get back to you as soon as possible')
-        
+        alert('Thank You for contacting us. We wil get back to you as soon as possible')     
 
     })
+      
+
+
+
     
 
 
