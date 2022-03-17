@@ -183,7 +183,7 @@
 .services{
     background-image: url("../assets/s_image.jpg");
     color: white;
-    height: 40vh;
+    /* height: 40vh; */
     padding: 100px;
     font-weight: 500;
 }
@@ -230,6 +230,9 @@ padding-top: 20px;
     .portfolio{
         display: flex;
         flex-direction: column;
+    }
+    .whatwedo{
+        display: block;
     }
 }
    
